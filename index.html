@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="imge-bg">
+            <h2 class="text-center mb-4">Search Movie Here</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <input type="search" id="serch" class="form-control" placeholder="Enter movie name">
+                    <div class="input-group-append">
+                        <button class="btn btn-warning" onclick="serchTitle()">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="result" class="row mt-4 justify-content-center container"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
